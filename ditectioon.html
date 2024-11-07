@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechGuard - URL Detection</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="ditection.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">TechGuard</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ditectioon.html" class="active">Detection</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>URL Detection</h1>
+        <div class="detection-container">
+            <input type="text" id="url-input" placeholder="Enter a URL to analyze">
+            <button id="detect-button">Scan</button>
+        </div>
+        <div id="result" class="hidden">
+            <h2>Scan Result</h2>
+            <p id="result-text"></p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 TechGuard. All rights reserved.</p>
+    </footer>
+    <script src="ditection.js"></script>
+</body>
+</html>
